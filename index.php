@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $formErrors[] = "Message at least  10 character " . "<br>";
     }
     // if no errors send mail($to, $subject, $msg, $headers);
-    $myemail = "ahmedd@gmail";
+    $myemail = "ahmed@gmail";
     $subject = "contact Form";
     $headers = "from" .$email . "\r\n";
 
